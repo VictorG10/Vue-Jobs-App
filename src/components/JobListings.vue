@@ -13,6 +13,7 @@
   });
 
   const jobs = ref(jobData);
+  const isLoading = ref(true);
 </script>
 
 <template>
